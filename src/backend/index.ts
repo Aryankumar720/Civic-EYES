@@ -1,0 +1,3 @@
+// Backend configuration and utilities
+export const API_BASE_URL = process.env.API_URL || 'http://localhost:3000/api';
+export const PORT = process.env.PORT || 3000;
